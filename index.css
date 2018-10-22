@@ -1,13 +1,13 @@
 .content {
     font-size: 0.25rem;
     animation-name: moveIn;
-    animation-duration: 5s; /*Will just default to original font size if you stop here*/
-    animation-fill-mode: forwards; /*This keeps the final size*/
+    animation-duration: 5s; /* Will just default to original font size if you stop here */
+    animation-fill-mode: forwards; /* This keeps the final size */
 }
 
 @keyframes moveIn {
 
-    from {                   /*This is 0%*/
+    from {                   /*This is 0% */
         color: white;
         font-size: 1.5rem;
     }
@@ -17,7 +17,7 @@
         font-size: 5rem;
     }
 
-    to {                      /*This is 100% so you can add whatever % you want inbetween*/
+    to {                      /*This is 100% so you can add whatever % you want inbetween */
         color: black;
         font-size: 1.75rem;
     }
